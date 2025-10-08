@@ -4,17 +4,36 @@
     "payload": "eyJkb21haW4iOiJuaWtpdGEtc2tldGNoLW1vY2stZnlqaS52ZXJjZWwuYXBwIn0",
     "signature": "Y35L6toTQr3Pb80ll8PAd6jaBirAmfMwXlCrwv+a1ZpVdhKkmbeh8bOn5LaFAk3cVfPptXsxIXiXKr/ihviRBRs="
   },
+  "miniapp": {
+    "name": "My Cool App",
+    "description": "Experience the future of social networking. Connect with friends, share moments, and discover communities that matter to you.",
+    "url": "https://nikita-sketch-mock-fyji.vercel.app/",
+    "icon": "https://nikita-sketch-mock-fyji.vercel.app/icon.png"
+  },
   "frame": {
     "version": "1",
     "name": "Nikita_sketch",
-    "subtitle": "Web3-style mock mini app",
-    "description": "A simple mock mini app built on Base.",
+    "subtitle": "Connect and share instantly",
+    "description": "Experience the future of social networking. Connect with friends, share moments, and discover communities that matter to you.",
     "iconUrl": "https://nikita-sketch-mock-fyji.vercel.app/icon.png",
     "homeUrl": "https://nikita-sketch-mock-fyji.vercel.app/",
-    "splashBackgroundColor": "#000000",
-    "tagline": "Mint mock counter",
+    "imageUrl": "https://via.placeholder.com/600x400.png?text=Preview",
+    "heroImageUrl": "https://via.placeholder.com/600x400.png?text=Hero",
+    "splashImageUrl": "https://via.placeholder.com/600x400.png?text=Splash",
+    "splashBackgroundColor": "#6200EA",
+    "webhookUrl": "https://nikita-sketch-mock-fyji.vercel.app/api/webhook",
     "primaryCategory": "social",
-    "tags": ["mock","web3","miniapp"]
+    "tags": ["social", "messaging", "community"],
+    "tagline": "Grow, Raid & Rise in Stoke Fire",
+    "buttonTitle": "Open mini app",
+    "ogTitle": "AppName – Local News Fast",
+    "ogDescription": "Get breaking news and updates from your community in real-time",
+    "ogImageUrl": "https://via.placeholder.com/600x400.png?text=OG+Image",
+    "castShareUrl": "https://warpcast.com/~/compose?text=Check+out+this+app",
+    "screenshotUrls": [
+      "https://via.placeholder.com/600x400.png?text=Screenshot1",
+      "https://via.placeholder.com/600x400.png?text=Screenshot2"
+    ]
   },
   "baseBuilder": {
     "allowedAddresses": ["0xb29B88924eA97f8fD92959292ce7fB48B629CBc3"]

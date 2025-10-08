@@ -1,96 +1,78 @@
-import { useEffect, useState } from 'react';
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-export default function Home() {
-  const [mintCount, setMintCount] = useState<number>(124);
-  const [loading, setLoading] = useState(false);
+    <title>NikitaApp – Quick Social</title>
+    <meta name="description" content="A simple mock mini app built on Base. Connect and share instantly." />
 
-  useEffect(() => {
-    setLoading(true);
-    const t = setTimeout(() => {
-      setMintCount(124);
-      setLoading(false);
-    }, 600);
-    return () => clearTimeout(t);
-  }, []);
+    <!-- ✅ Open Graph -->
+    <meta property="og:title" content="NikitaApp – Quick Social" />
+    <meta property="og:description" content="Check out this mini app on Base! Connect and share instantly." />
+    <meta property="og:image" content="https://nikita-sketch-mock-fyji.vercel.app/og-image.png" />
+    <meta property="og:url" content="https://nikita-sketch-mock-fyji.vercel.app/" />
+    <meta property="og:type" content="website" />
 
-  const handleMint = () => setMintCount(prev => prev + 1);
+    <!-- ✅ Twitter / Farcaster cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NikitaApp – Quick Social" />
+    <meta name="twitter:description" content="A simple mock mini app built on Base." />
+    <meta name="twitter:image" content="https://nikita-sketch-mock-fyji.vercel.app/og-image.png" />
 
-  return (
-    <main style={styles.page}>
-      <div style={styles.card}>
-        <div style={styles.header}>
-          <div style={styles.logo}></div>
-          <h1 style={styles.title}>Nikita Sketch</h1>
-        </div>
-        <p style={styles.subtitle}>A simple Web3-style mock mint counter</p>
+    <!-- ✅ Farcaster miniapp metadata -->
+    <meta name="fc:frame" content="https://nikita-sketch-mock-fyji.vercel.app/farcaster.json" />
 
-        <div style={styles.counterWrap}>
-          <div style={styles.counterLabel}>Minted</div>
-          {loading ? (
-            <div style={styles.count}>—</div>
-          ) : (
-            <div style={styles.count}>{mintCount.toLocaleString()}</div>
-          )}
-        </div>
+    <!-- ✅ Favicon -->
+    <link rel="icon" href="https://nikita-sketch-mock-fyji.vercel.app/icon.png" type="image/png" />
 
-        <button style={styles.mintButton} onClick={handleMint}>
-          Mint (mock)
-        </button>
+    <!-- ✅ Base Theme Color -->
+    <meta name="theme-color" content="#6200EA" />
+  </head>
 
-        <p style={styles.footer}>Connected to: <strong>Mock Network</strong></p>
-      </div>
+  <body style="margin:0; font-family: system-ui, sans-serif; background-color:#f9f9f9;">
+    <main
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+        padding: 2rem;
+      "
+    >
+      <img
+        src="https://nikita-sketch-mock-fyji.vercel.app/icon.png"
+        alt="App Icon"
+        width="120"
+        height="120"
+        style="border-radius: 24px; margin-bottom: 1rem;"
+      />
+      <h1 style="color:#6200EA; font-size:2rem; margin-bottom:0.5rem;">NikitaApp – Quick Social</h1>
+      <p style="max-width:480px; color:#333; line-height:1.6;">
+        A simple mock mini app built on Base. Connect, share, and explore communities that matter to you.
+      </p>
+
+      <a
+        href="https://warpcast.com/~/compose?text=Check+out+this+app"
+        target="_blank"
+        style="
+          display:inline-block;
+          background-color:#6200EA;
+          color:#fff;
+          padding:0.75rem 1.5rem;
+          border-radius:12px;
+          text-decoration:none;
+          margin-top:1.5rem;
+          font-weight:600;
+          transition:background-color 0.2s ease-in-out;
+        "
+        onmouseover="this.style.backgroundColor='#4b00b5'"
+        onmouseout="this.style.backgroundColor='#6200EA'"
+      >
+        Share on Farcaster
+      </a>
     </main>
-  );
-}
-
-const styles: { [k: string]: React.CSSProperties } = {
-  page: {
-    minHeight: '100vh',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    background: 'linear-gradient(180deg, #0f172a 0%, #071029 100%)',
-    color: '#e6eef8',
-    fontFamily: 'Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial',
-    padding: '24px'
-  },
-  card: {
-    width: '100%',
-    maxWidth: 520,
-    padding: '28px',
-    borderRadius: 16,
-    boxShadow: '0 8px 30px rgba(2,6,23,0.6)',
-    background: 'linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02))',
-    textAlign: 'center'
-  },
-  header: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: 12,
-    justifyContent: 'center'
-  },
-  logo: {
-    width: 48,
-    height: 48,
-    borderRadius: 12,
-    background: 'linear-gradient(135deg,#7c3aed,#06b6d4)',
-    boxShadow: '0 4px 14px rgba(92,33,255,0.28)',
-  },
-  title: { margin: 0, fontSize: 20 },
-  subtitle: { marginTop: 8, color: '#bcd3f2' },
-  counterWrap: { marginTop: 20, marginBottom: 18 },
-  counterLabel: { fontSize: 12, color: '#93c5fd', marginBottom: 6 },
-  count: { fontSize: 36, fontWeight: 700 },
-  mintButton: {
-    marginTop: 10,
-    padding: '12px 22px',
-    borderRadius: 10,
-    border: 'none',
-    cursor: 'pointer',
-    background: 'linear-gradient(90deg,#06b6d4,#7c3aed)',
-    color: '#001023',
-    fontWeight: 700,
-    boxShadow: '0 8px 20px rgba(12,74,110,0.18)'
-  },
-  footer: { marginTop: 16, fontSize: 12, color: '#9fbbe8' }
-};
+  </body>
+</html>

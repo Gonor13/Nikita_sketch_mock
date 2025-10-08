@@ -1,8 +1,8 @@
 {
   "accountAssociation": {
-    "header": "MOCK_HEADER",
-    "payload": "MOCK_PAYLOAD",
-    "signature": "MOCK_SIGNATURE"
+    "header": "",
+    "payload": "{\"app\":\"Nikita_sketch\"}",
+    "signature": ""
   },
   "frame": {
     "version": "1",
@@ -23,4 +23,3 @@
     "allowedAddresses": ["0xb29B88924eA97f8fD92959292ce7fB48B629CBc3"]
   }
 }
-

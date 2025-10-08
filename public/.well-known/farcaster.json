@@ -1,9 +1,8 @@
 {
   "accountAssociation": {
-   "accountAssociation": {
-    "header": "eyJmaWQiOjMzODQ1MSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEMzQTBDODVENjEzRTEwZDIyNUVjMjk5N0MyODZCODA4NzhCYUVhNjMifQ",
+    "header": "eyJmaWQiOjMzODQ1MSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDc4NDRENDM0NzMzOTM1OTRENWQwM2NkZDUzRDU0RDdGY0RmMzk5RTUifQ",
     "payload": "eyJkb21haW4iOiJuaWtpdGEtc2tldGNoLW1vY2stZnlqaS52ZXJjZWwuYXBwIn0",
-    "signature": "Y35L6toTQr3Pb80ll8PAd6jaBirAmfMwXlCrwv+a1ZpVdhKkmbeh8bOn5LaFAk3cVfPptXsxIXiXKr/ihviRBRs="
+    "signature": "MHgwYTg0Y2RkOGIwOWEzNmI1Yjc4ZGY0YmU4NjQxODk5MWE1OWYzYzk0ZDM3ZTNlOWJkZWVkMzU5ZTUzNDA0ZTUxNjRlNWJjMzM0MTAwMGE1ZjZjMzY2ZDYxNGFlYmE3MjdhYzE2Njc0MWRiOTcxOTRlNmE4MjNkZjExYmVkYjYxMDFi"
   },
   "miniapp": {
     "name": "My Cool App",
@@ -13,7 +12,7 @@
   },
   "frame": {
     "version": "1",
-    "name": "Nikita_sketch",
+    "name": "NikitaApp",
     "subtitle": "Connect and share instantly",
     "description": "Experience the future of social networking. Connect with friends, share moments, and discover communities that matter to you.",
     "iconUrl": "https://nikita-sketch-mock-fyji.vercel.app/icon.png",

@@ -1,9 +1,9 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjMzODQ1MSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEMzQTBDODVENjEzRTEwZDIyNUVjMjk5N0MyODZCODA4NzhCYUVhNjMifQ",
-    "payload": "eyJkb21haW4iOiJuaWtpdGEtc2tldGNoLW1vY2stZnlqaS52ZXJjZWwuYXBwIn0",
-    "signature": "Y35L6toTQr3Pb80ll8PAd6jaBirAmfMwXlCrwv+a1ZpVdhKkmbeh8bOn5LaFAk3cVfPptXsxIXiXKr/ihviRBRs="
-  }
+    "header": "",
+    "payload": "{\"app\":\"Nikita_sketch\"}",
+    "signature": ""
+  },
   "frame": {
     "version": "1",
     "name": "Nikita_sketch",

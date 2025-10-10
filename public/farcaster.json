@@ -1,27 +1,35 @@
 {
+  "accountAssociation": {
+    "header": "eyJmaWQiOjMzODQ1MSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDc4NDRENDM0NzMzOTM1OTRENWQwM2NkZDUzRDU0RDdGY0RmMzk5RTUifQ",
+    "payload": "eyJkb21haW4iOiJuaWtpdGEtc2tldGNoLW1vY2stZnlqaS52ZXJjZWwuYXBwIn0",
+    "signature": "MHgwYTg0Y2RkOGIwOWEzNmI1Yjc4ZGY0YmU4NjQxODk5MWE1OWYzYzk0ZDM3ZTNlOWJkZWVkMzU5ZTUzNDA0ZTUxNjRlNWJjMzM0MTAwMGE1ZjZjMzY2ZDYxNGFlYmE3MjdhYzE2Njc0MWRiOTcxOTRlNmE4MjNkZjExYmVkYjYxMDFi"
+  },
+  "miniapp": {
+    "name": "Nikita_sketch",
+    "description": "A simple mock mini app built on Base.",
+    "url": "https://nikita-sketch-mock-fyji.vercel.app/",
+    "icon": "https://nikita-sketch-mock-fyji.vercel.app/icon.png"
+  },
   "frame": {
     "version": "1",
     "name": "NikitaApp",
     "subtitle": "Gonor",
-    "description": "WEN — Web3 mini app built on Base",
+    "description": "WEN",
     "iconUrl": "https://nikita-sketch-mock-fyji.vercel.app/icon.png",
     "homeUrl": "https://nikita-sketch-mock-fyji.vercel.app",
-    "imageUrl": "https://nikita-sketch-mock-fyji.vercel.app/image.png",
     "splashImageUrl": "https://nikita-sketch-mock-fyji.vercel.app/splash.png",
-    "splashBackgroundColor": "#6200ea",
-    "webhookUrl": "https://nikita-sketch-mock-fyji.vercel.app/api/webhook",
+    "splashBackgroundColor": "#6200EA",
     "primaryCategory": "social",
+    "tags": ["mock", "web3", "miniapp"],
     "tagline": "Mint mock counter",
-    "buttonTitle": "Open mini app",
-    "ogTitle": "NikitaApp – built on Base",
-    "ogDescription": "Explore the new Base-powered mini app by Gonor.",
-    "ogImageUrl": "https://nikita-sketch-mock-fyji.vercel.app/image.png",
-    "castShareUrl": "https://warpcast.com/~/compose?text=Check+out+NikitaApp+on+Base!&embeds[]=https://nikita-sketch-mock-fyji.vercel.app",
-    "tags": ["web3", "social", "miniapp"]
+    "ogTitle": "NikitaApp – Quick Social",
+    "ogDescription": "Check out this mini app on Base!",
+    "ogImageUrl": "https://nikita-sketch-mock-fyji.vercel.app/og-image.png",
+    "screenshotUrls": [
+      "https://nikita-sketch-mock-fyji.vercel.app/screenshot1.png"
+    ]
   },
-  "accountAssociation": {
-    "header": "eyJmaWQiOjMzODQ1MSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEMzQTBDODVENjEzRTEwZDIyNUVjMjk5N0MyODZCODA4NzhCYUVhNjMifQ",
-    "payload": "eyJkb21haW4iOiJuaWtpdGEtc2tldGNoLW1vY2stZnlqaS52ZXJjZWwuYXBwIn0",
-    "signature": "Y35L6toTQr3Pb80ll8PAd6jaBirAmfMwXlCrwv+a1ZpVdhKkmbeh8bOn5LaFAk3cVfPptXsxIXiXKr/ihviRBRs="
+  "baseBuilder": {
+    "allowedAddresses": ["0xb29B88924eA97f8fD92959292ce7fB48B629CBc3"]
   }
 }

@@ -9,10 +9,10 @@
     "name": "NikitaApp",
     "subtitle": "Gonor",
     "description": "WEN",
-    "iconUrl": "https://nikita-sketch-mock.vercel.app/icon.png",
+    "iconUrl": "https://raw.githubusercontent.com/base-org/brand-kit/main/logo/Base_Logo_Blue.png",
     "homeUrl": "https://nikita-sketch-mock.vercel.app",
-    "imageUrl": "https://nikita-sketch-mock.vercel.app/image.png",
-    "splashImageUrl": "https://nikita-sketch-mock.vercel.app/splash.png",
+    "imageUrl": "https://raw.githubusercontent.com/base-org/brand-kit/main/social/og-base-blue.png",
+    "splashImageUrl": "https://raw.githubusercontent.com/base-org/brand-kit/main/social/twitter-card.png",
     "splashBackgroundColor": "#6200ea",
     "primaryCategory": "social",
     "tagline": "Mint mock counter"

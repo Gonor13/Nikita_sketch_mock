@@ -1,23 +1,21 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjMzODQ1MSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEMzQTBDODVENjEzRTEwZDIyNUVjMjk5N0MyODZCODA4NzhCYUVhNjMifQ",
-    "payload": "eyJkb21haW4iOiJuaWtpdGEtc2tldGNoLW1vY2sudmVyY2VsLmFwcCJ9",
-    "signature": "8ll5OfPd5b+KxJalOEd4g4UIaYx3lRJHmwCYvxYmqINjO5etdY5BmP31QcjsFR4EEKR0GA3J/6ifkXS2Lbi6Hxw="
+    "header": "eyJmaWQiOjMzODQ1MSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDc4NDRENDM0NzMzOTM1OTRENWQwM2NkZDUzRDU0RDdGY0RmMzk5RTUifQ",
+    "payload": "eyJkb21haW4iOiJuaWtpdGEtc2tldGNoLW1vY2stbW9jay52ZXJjZWwuYXBwIn0",
+    "signature": "MHgwYTg0Y2RkOGIwOWEzNmI1Yjc4ZGY0YmU4NjQxODk5MWE1OWYzYzk0ZDM3ZTNlOWJkZWVkMzU5ZTUzNDA0ZTUxNjRlNWJjMzM0MTAwMGE1ZjZjMzY2ZDYxNGFlYmE3MjdhYzE2Njc0MWRiOTcxOTRlNmE4MjNkZjExYmVkYjYxMDFi"
   },
   "frame": {
     "version": "1",
     "name": "NikitaApp",
     "subtitle": "Gonor",
-    "description": "WEN – the future of social onchain",
+    "description": "WEN",
     "iconUrl": "https://raw.githubusercontent.com/base-org/brand-kit/main/logo/Base_Logo_Blue.png",
     "homeUrl": "https://nikita-sketch-mock.vercel.app",
     "imageUrl": "https://raw.githubusercontent.com/base-org/brand-kit/main/social/og-base-blue.png",
     "splashImageUrl": "https://raw.githubusercontent.com/base-org/brand-kit/main/social/twitter-card.png",
     "splashBackgroundColor": "#6200ea",
     "primaryCategory": "social",
-    "tagline": "Mint mock counter",
-    "buttonTitle": "Open mini app",
-    "webhookUrl": "https://nikita-sketch-mock.vercel.app/api/webhook"
+    "tagline": "Mint mock counter"
   },
   "baseBuilder": {
     "allowedAddresses": ["0xb29B88924eA97f8fD92959292ce7fB48B629CBc3"]
